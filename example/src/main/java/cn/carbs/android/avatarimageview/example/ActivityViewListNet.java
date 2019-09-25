@@ -92,7 +92,7 @@ public class ActivityViewListNet extends AppCompatActivity {
 				.with(ActivityViewListNet.this)
 				.load(model.url)
 				.centerCrop()
-				.crossFade()
+				//.crossFade()
 				.into(aiv);
 		}
 	}
