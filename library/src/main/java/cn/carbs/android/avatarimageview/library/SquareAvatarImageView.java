@@ -15,7 +15,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 /**
  * Created by Carbs.Wang on 2016/12/7.
@@ -24,7 +25,7 @@ import android.widget.ImageView;
  *  2.can not make string to "bitmap"
  *
  */
-public class SquareAvatarImageView extends ImageView {
+public class SquareAvatarImageView extends AppCompatImageView {
 
     private static final int COLOR_DRAWABLE_DIMENSION = 1;
     private static final Bitmap.Config BITMAP_CONFIG_8888 = Bitmap.Config.ARGB_8888;

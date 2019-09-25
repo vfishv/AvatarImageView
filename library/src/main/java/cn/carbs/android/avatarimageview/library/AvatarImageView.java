@@ -15,9 +15,10 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
-public class AvatarImageView extends ImageView {
+import androidx.appcompat.widget.AppCompatImageView;
+
+public class AvatarImageView extends AppCompatImageView {
 
     public static final int[] COLORS = {0xff44bb66,
                                         0xff55ccdd,
