@@ -21,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        res_network
         <activity
             android:name=".ActivityViewListLocal"
             android:label="@string/res_local" />
